@@ -1,4 +1,4 @@
-// This file contains constant data that is used throghout the game to make it easy to update
+// 定数を定義するファイル
 
 const GAME = {
   START_POS: 200,

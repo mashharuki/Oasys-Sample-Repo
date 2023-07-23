@@ -21,7 +21,9 @@ const spriteImageRefs = [
   assets.img.pixelDinoRedImage,
 ]
 
-// Main menu and customization scene
+/**
+ * Menu Component
+ */
 export default class Menu extends Phaser.Scene {
   constructor() {
     super('menu')

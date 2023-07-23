@@ -1,6 +1,9 @@
 import Phaser from 'phaser'
 import WebFont from 'webfontloader'
 
+/**
+ * WebFontFile Component
+ */
 export default class WebFontFile extends Phaser.Loader.File
 {
 	constructor(loader, fontNames, service = 'google') {

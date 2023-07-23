@@ -90,4 +90,11 @@ const getAllArtLinks = (address) => {
   return []
 }
 
-export { randomNumInRange, getIdealSpriteScale, addArtLocalStorage, getAllArtLinks, getSavedArtsForType, getSavedArtsForTypeOfAddress }
+export { 
+  randomNumInRange, 
+  getIdealSpriteScale, 
+  addArtLocalStorage, 
+  getAllArtLinks, 
+  getSavedArtsForType, 
+  getSavedArtsForTypeOfAddress 
+}

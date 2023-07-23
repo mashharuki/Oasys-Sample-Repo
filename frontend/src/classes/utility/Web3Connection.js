@@ -4,6 +4,9 @@ import WalletConnectProvider from "@walletconnect/web3-provider";
 import Web3Modal from 'web3modal'
 import Toastify from 'toastify-js'
 
+/**
+ * Web3Connection Component
+ */
 export default class Web3Connection {
   constructor(game) {
     this.game = game

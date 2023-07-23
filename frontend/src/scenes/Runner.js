@@ -11,7 +11,9 @@ import ObstacleManager from "../classes/game/ObstacleManager.js"
 import UserInterface from "../classes/game/UserInterface.js"
 import PlayerCharacter from "../classes/game/PlayerCharacter.js"
 
-// Main game scene
+/**
+ * Runner Component
+ */
 export default class Runner extends Phaser.Scene {
   constructor() {
     super('runner')
